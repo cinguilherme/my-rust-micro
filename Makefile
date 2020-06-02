@@ -1,4 +1,7 @@
 build:
+	cargo build
+
+build-image:
 	docker build . -t micro-serv-rust:latest
 
 run-app:

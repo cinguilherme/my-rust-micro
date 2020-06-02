@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  service:
+    image: micro-serv-rust:latest
+    ports:
+      - 8080:8080
+    command: cargo run
